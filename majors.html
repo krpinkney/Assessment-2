@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Major</title>
+    
+        <link rel="stylesheet" href="styles.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript" type="text/javascript"></script>
+    
+</head>
+
+<body>
+    
+<!-- HEADER AND NAVIGATION -->    
+<header class= "big">
+    <nav class= "big">
+        <div class="links">
+            <a href="index.html">HOME</a>
+            <a href="#majorsBackground">MAJORS</a> 
+            <a href="index.html">MASSEY</a>            
+            <a href="#aboutBackground">ABOUT</a>       
+            <a href="#contactBackground">CONTACT</a>
+        </div>
+    </nav>
+</header>
+
+<!-- IMAGES -->
+<div class= "images">
+    <h2>VISUAL COMMUNICATION</h2>
+    <div class="group1">
+        
+    </div>
+    
+    <div class="group2">
+        
+    </div>
+    
+    <div class="group3">
+        
+    </div>
+    
+    <div class="group4">
+        
+    </div>
+</div>
+
+<!-- ABOUT MAJOR -->
+<div id="aboutBackground">
+    <div class="about">
+        <h2>ABOUT</h2>
+        <p>
+            MAJOR DESCRIPTION
+        </p>
+    </div>
+</div>
+
+
+<!-- FOOTER -->
+<div class="footer">
+    <p>Made by Jessie Hamilton & Kristina Pinkney 2016</p>
+</div>
+
+
+
+<script type="text/javascript" charset="utf-8">
+    
+/* Resizing Header */    
+    $(document).on("scroll",function(){
+    if($(document).scrollTop()>100){
+        $("header").removeClass("big").addClass("small");
+    } else{
+        $("header").removeClass("small").addClass("big");
+    }
+    });
+
+    $(document).on("scroll",function(){
+    if($(document).scrollTop()>100){
+        $("nav").removeClass("big").addClass("small");
+    } else{
+        $("nav").removeClass("small").addClass("big");
+    }
+    });
+    
+    document.getElementById("button").addEventListener('click', function() {
+        var fname = document.getElementById("fname").value;
+        alert("Thanks for signing up " + fname);
+    });
+</script>
+
+</body>
+</html>
