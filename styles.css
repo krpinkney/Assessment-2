@@ -160,13 +160,13 @@ header, nav {
     margin:auto;
 }
 
-#majors , #about , #contact  {
-    margin-top: -50px;
-    padding-top: 50px;
+#majorsBackground , #aboutBackground , #contactBackground  {
+    margin-top: -75px;
+    padding-top: 75px;
 }
 
 #majorsBackground {
-    height: 1100px;
+    height: 1300px;
     margin:auto;
 }
 
@@ -192,7 +192,7 @@ header, nav {
 
 #aboutBackground {
     background-color: #d1dede;
-    height: 350px;
+    height: 425px;
 }
 
 .about {
@@ -250,7 +250,6 @@ header, nav {
     float: right;
 }
 
-
 #button {
     background-color:White;
     width:130px;
@@ -274,38 +273,44 @@ header, nav {
 .images {
     max-width: 800px;
     margin:auto;
-    height: 1000px;
+    height: 950px;
     padding-top: 100px;
     text-align: center;
-    padding: 10px;
+    padding-top: 100px;
 }
 
-
-.group1 , .group2 , .group3 , .group4 {
+.group1 , .group2 , .group3 , .group4 , .group5 {
         background-color: white;
-        border: solid #FFA418 1px;
+        margin: 5px 5px 5px 5px;
 }
 
 .group1 {
     float:left;
-    width: 180px;
-    height: 150px;
+    width: 170px;
+    height: 350px;
 }
 
 .group2 {
     float:left;
-    width: 600px;
-    height: 150px;
+    width: 560px;
+    height: 350px;
 }
 
 .group3 {
     float:left;
-    width: 150px;
-    height: 150px;
+    width: 365px;
+    height: 250px;
 }
 
 .group4 {
-    float:left;
-    width: 150px;
+    float:right;
+    width: 365px;
+    height: 410px;
+    margin-right: 55px;
+}
+
+.group5 {
+    float: left;
+    width: 365px;
     height: 150px;
 }
