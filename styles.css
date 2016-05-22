@@ -192,12 +192,12 @@ header, nav {
 
 #aboutBackground {
     background-color: #d1dede;
-    height: 425px;
+    height: 430px;
 }
 
 .about {
     margin:auto;
-    padding-top: 25px;
+    padding-top: 20px;
     color:#2b2b2b;
     max-width:800px;
 }
