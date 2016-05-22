@@ -1,0 +1,219 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway|Julius+Sans+One);
+
+body {
+    background-color: #2b2b2b;
+    color: #d1dede;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 4em;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 2.25em;
+    color: #ffffff;
+}
+
+h3 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.50em;
+    color: #ffffff;
+}
+
+h4 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+a {
+    text-decoration:none;
+    color: #d1dede;
+}
+
+header.transparent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100px;
+}
+
+nav.transparent {
+    margin: auto;
+    max-width: 800px;
+    padding:0px 25px 0px 25px;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top:40px;
+}
+
+header.solid {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 75px;
+    background-color: #ffffff;
+}
+
+nav.solid {
+    margin: auto;
+    max-width: 800px;
+    padding:0px 25px 0px 25px;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top:30px;
+}
+
+nav.solid a{
+    color:#2b2b2b;
+}
+
+header, nav {
+  transition: all 0.5s;
+  -moz-transition: all 0.5s; 
+  -webkit-transition: all 0.5s; 
+  -o-transition: all 0.5s;
+}
+
+.links {
+    margin:auto;
+    text-align: center;
+    color: #d1dede;
+}
+
+.links a {
+    text-decoration: none;
+    color:#d1dede;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.bannerBackground {
+    background: url(images/header.jpg) no-repeat center top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    height: 650px;
+    text-align:center;
+}
+
+.banner {
+    height: 650px;
+    width: 950px;
+    position:relative;
+    padding-top: 250px;
+    margin: auto;
+    text-align: center;
+}
+
+.banner h1 {
+    border-bottom: solid #ffffff 2px;
+    max-width: 800px;
+    margin:auto;
+}
+
+#majors , #about , #contact  {
+    margin-top: -50px;
+    padding-top: 50px;
+}
+
+#majorsBackground {
+    height: 1100px;
+    margin:auto;
+}
+
+.majors {
+    text-align:center;
+    max-width:800px;
+    margin:auto;
+    padding-bottom:25px;
+}
+
+.majors img{
+    margin:auto;
+    height:250px;
+    width:250px;
+    padding: 0px 50px 20px 50px;
+}
+
+.row1, .row2 {
+    display: inline-block;
+    text-align:center;
+    margin:auto;
+}
+
+#aboutBackground {
+    background-color: #d1dede;
+    height: 350px;
+}
+
+.about {
+    margin:auto;
+    padding-top: 25px;
+    color:#2b2b2b;
+    max-width:800px;
+}
+
+.about h2 {
+    float:left;
+    color:#2b2b2b;
+    width: 200px;
+    height: 45px;
+    text-align:right;
+    margin-top: 15px;
+    padding-right:20px;
+    border-bottom: solid #2b2b2b 2px;
+}
+
+.about p {
+    padding-left: 20px;
+    float:left;
+    text-align: justify;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    width: 500px;
+}
+
+#contactBackground {
+    background-color: #9db4bc;
+    height: 400px;
+}
+
+.contact {
+    margin:auto;
+    padding-top: 25px;
+    color:#2b2b2b;
+    max-width:800px;
+}
+
+.contact h2 {
+    float:left;
+    color:#ffffff;
+    width: 200px;
+    height: 45px;
+    text-align:right;
+    margin-top: 15px;
+    padding-right:20px;
+    border-bottom: solid #ffffff 2px;
+}
+
+.form {
+    float: right;
+}
+
+
+#button {
+    background-color:White;
+    width:130px;
+    text-align:center;
+    cursor:pointer;
+}
