@@ -293,12 +293,15 @@ header, nav {
     float:left;
     width: 145px;
     height: 145px;
+    margin-right: 560px;
 }
 
 .image3 {
     float:left;
     width: 560px;
     height: 315px;
+    margin-left: 155px;
+    margin-top: -310px;
 }
 
 .image4 img {
