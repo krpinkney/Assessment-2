@@ -276,32 +276,31 @@ header, nav {
     height: 1000px;
     padding-top: 100px;
     text-align: center;
-    padding-top: 100px;
 }
 
-.image1 img , .image2 img , .image3 img , .image4 img , .image5 img {
+.image1 img , .image2 img , .image3 , .image4 img , .image5 img {
         margin: 5px 5px 5px 5px;
 }
 
 .image1 img {
     float:left;
-    width: 145px;
-    height: 145px;
+    width: 175px;
+    height: 175px;
 }
 
 .image2 img {
     float:left;
-    width: 145px;
-    height: 145px;
-    margin-right: 560px;
+    width: 175px;
+    height: 175px;
+    margin-right: 500px;
 }
 
 .image3 {
     float:left;
-    width: 560px;
-    height: 315px;
-    margin-left: 155px;
-    margin-top: -310px;
+    width: 630px;
+    height: 360px;
+    margin-left: 190px;
+    margin-top: -365px;
 }
 
 .image4 img {
@@ -320,5 +319,5 @@ header, nav {
 .image6 img {
     float: left;
     width: 365px;
-    height:  192px;
+    height: 192px;
 }
