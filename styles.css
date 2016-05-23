@@ -279,38 +279,43 @@ header, nav {
     padding-top: 100px;
 }
 
-.group1 , .group2 , .group3 , .group4 , .group5 {
-        background-color: white;
+.image1 img , .image2 img , .image3 img , .image4 img , .image5 img {
         margin: 5px 5px 5px 5px;
 }
 
-.group1 {
+.image1 img {
     float:left;
-    width: 170px;
-    height: 350px;
+    width: 145px;
+    height: 145px;
 }
 
-.group2 {
+.image2 img {
+    float:left;
+    width: 145px;
+    height: 145px;
+}
+
+.image3 {
     float:left;
     width: 560px;
-    height: 350px;
+    height: 315px;
 }
 
-.group3 {
+.image4 img {
     float:left;
     width: 365px;
     height: 250px;
 }
 
-.group4 {
+.image5 img {
     float:right;
-    width: 365px;
-    height: 410px;
+    width: 315px;
+    height: 450px;
     margin-right: 55px;
 }
 
-.group5 {
+.image6 img {
     float: left;
     width: 365px;
-    height: 150px;
+    height:  192px;
 }
