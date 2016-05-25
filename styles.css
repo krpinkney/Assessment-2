@@ -273,12 +273,12 @@ header, nav {
 .images {
     max-width: 800px;
     margin:auto;
-    height: 1000px;
+    height: 1100px;
     padding-top: 100px;
     text-align: center;
 }
 
-.image1 img , .image2 img , .image3 , .image4 img , .image5 img {
+.image1 img , .image2 img , .image3 , .image4 img , .image5 img , .image6 img{
         margin: 5px 5px 5px 5px;
 }
 
@@ -305,19 +305,20 @@ header, nav {
 
 .image4 img {
     float:left;
-    width: 365px;
-    height: 250px;
+    width: 360px;
+    height: 245px;
 }
 
 .image5 img {
     float:right;
-    width: 315px;
-    height: 450px;
-    margin-right: 55px;
+    width: 440px;
+    height: 440px;
+    margin-right: -20px;
 }
 
 .image6 img {
     float: left;
-    width: 365px;
-    height: 192px;
+    width: 360px;
+    height: 185px;
+    margin-left: 5px;
 }
