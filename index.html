@@ -5,8 +5,12 @@
 
     <title>Massey School of Design - Gallery</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript" type="text/javascript"></script>
     
 </head>
 
@@ -16,57 +20,61 @@
 <header class= "transparent">
     <nav class= "transparent">
         <div class="links">
-            <a href="index.html">HOME</a>
-            <a href="#majorsBackground">MAJORS</a> 
-            <a href="index.html">MASSEY</a>            
-            <a href="#aboutBackground">ABOUT</a>       
-            <a href="#contactBackground">CONTACT</a>
+            <ul>
+                <li><a href="index.html">HOME</a> </li>
+                <li><a href="#majorsBackground">MAJORS</a> </li>
+                <li><a href="http://creative.massey.ac.nz/">MASSEY</a> </li>           
+                <li><a href="#aboutBackground">ABOUT</a>  </li>     
+                <li><a href="#contactBackground">CONTACT</a> </li>
+            </ul>
         </div>
     </nav>
 </header>
 
 <!-- BANNER -->
-<div class="bannerBackground">
+<div class="bannerBackground , container-fluid">
     <div class="banner">
-        <h1>MASSEY UNIVERSITY</h1>
-        <h3>SCHOOL OF DESIGN</h3>
+            <h1>MASSEY UNIVERSITY</h1>
+            <h3>SCHOOL OF DESIGN</h3>
     </div>
 </div>
 
 <!-- MAJORS -->
-<div id="majorsBackground">
+<div id="majorsBackground" class="container-fluid">
     <div class="majors">
         <h2>MAJORS</h2>
         
-        <div class="row1">
-            <div class="vcd">
+        <div class="row">
+            <div class="vcd , col-md-6 , col-sm-12">
                  <h3>VISUAL COMMUNICATION</h3>
                  <a href= "vcd.html"><img src="images/majors/vcd.jpg"> </a> 
              </div>
     
-             <div class="photography">
+             <div class="photography , col-md-6 , col-sm-12">
                  <H3>PHOTOGRAPHY</H3>
                  <a href= "photography.html"><img src="images/majors/photography.jpg"></a> 
              </div>
-    
-             <div class="industrial">
+        </div>
+        
+        <div class="row">
+             <div class="industrial , col-md-6 , col-sm-12">
                  <H3>INDUSTRIAL</H3>
                  <a href= "industrial.html"><img src="images/majors/industrial.jpg"></a> 
              </div>             
-        </div>
              
-        <div class="row2">
-            <div class="fashion">
+            <div class="fashion , col-md-6 , col-sm-12">
                  <H3>FASHION</H3>
                  <a href= "fashion.html"><img src="images/majors/fashion.jpg"></a> 
              </div>
+        </div>
              
-             <div class="spacial">
+        <div class="row">
+             <div class="spacial , col-md-6 , col-sm-12">
                  <H3>SPATIAL</H3>
                  <a href= "spatial.html"><img src="images/majors/spacial.jpg"></a> 
              </div>
              
-             <div class="textile">
+             <div class="textile , col-md-6 , col-sm-12">
                  <H3>TEXTILE</H3>
                  <a href= "textile.html"><img src="images/majors/textile.jpg"></a> 
              </div>
@@ -75,14 +83,15 @@
 </div>
 
 <!-- ABOUT -->
-<div id="aboutBackground">
-    <div class="about">
-        <h2>ABOUT</h2>
-        <p>
-            The School of Design offers five major design specialisms in fashion, industrial, spatial, textiles and visual communication design combining graphics, digital media, advertising design and illustration. The programme allows for a number of minor options, which flexibly enable students to explore and develop a range of interdisciplinary design skills. In the course of their study students address local and global issues producing inspirational design solutions for a rapidly changing world.
-        <br /> <br />
-        This is a place to curate and display the works of students undergoing the Design Program, here at Massey College of Creative Arts, School of Design. 
-        </p>
+<div id="aboutBackground" class="container-fluid">
+    <div class="about , row">
+        <div class="col-lg-4 , col-md-4 , col-sm-12"><h2>ABOUT</h2></div>
+        <div class="col-lg-4 , col-md-4 , col-sm-12">
+            <p>The School of Design offers five major design specialisms in fashion, industrial, spatial, textiles and visual communication design combining graphics, digital media, advertising design and illustration. The programme allows for a number of minor options, which flexibly enable students to explore and develop a range of interdisciplinary design skills. </p>
+        </div>
+        <div class="col-lg-4 , col-md-4 , col-sm-12">
+        <p>In the course of their study students address local and global issues producing inspirational design solutions for a rapidly changing world. <br> <br>This is a place to curate and display the works of students undergoing the Design Program, here at Massey College of Creative Arts, School of Design. </p>
+        </div>
     </div>
 </div>
 
