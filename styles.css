@@ -55,12 +55,16 @@ header.transparent {
     height: 100px;
 }
 
-nav.transparent {
+nav.transparent , nav.navbar {
     margin: auto;
     max-width: 800px;
     padding:0px 25px 0px 25px;
     font-family: 'Julius Sans One', sans-serif;
     margin-top:40px;
+}
+
+.navbar a:hover {
+    color: inherit;
 }
 
 header.solid {
