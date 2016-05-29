@@ -42,6 +42,10 @@ li {
     list-style-type: none;
 }
 
+li a:hover {
+    background-color: transparent;
+}
+
 header.transparent {
     position: fixed;
     top: 0;
@@ -147,13 +151,13 @@ header, nav {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-    height: 650px;
+    height: auto;
     text-align:center;
 }
 
 .banner {
     height: 650px;
-    width: 950px;
+    width: auto;
     position:relative;
     padding-top: 250px;
     margin: auto;
@@ -161,9 +165,42 @@ header, nav {
 }
 
 .banner h1 {
-    border-bottom: solid #ffffff 2px;
-    max-width: 800px;
-    margin:auto;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 4em;
+        color: #ffffff;
+        border-bottom: solid #ffffff 2px;
+        max-width:600px;
+        margin:auto;
+        text-align:center;
+    }
+    
+.banner h3 {
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 1.50em;
+        color: #ffffff;
+    }  
+    
+/* RESPONSIVE BANNER */    
+@media screen and (max-width: 800px) {
+    .banner h1 {
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 2.5em;
+        color: #ffffff;
+        border-bottom: solid #ffffff 2px; 
+        max-width: 200px;
+        margin:auto;
+    } 
+
+    .banner h3 {
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 1.4em;
+        color: #ffffff;
+    }
+    
+    .banner {
+    height: 500px;
+    padding-top: 200px;
+    }
 }
 
 #majorsBackground , #aboutBackground , #contactBackground  {
@@ -274,6 +311,8 @@ header, nav {
     padding-top: 13px;
 }
 
+
+/* MAJOR PAGE SPECIFIC CODING */
 .images {
     max-width: 800px;
     margin:auto;
