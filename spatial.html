@@ -69,14 +69,15 @@
 </div>
 
 <!-- ABOUT MAJOR -->
-<div id="aboutBackground">
-    <div class="about">
-        <h2>SPATIAL</h2>
-        <p>
-            Spatial designers choreograph experience, inhabitation and environment in the design of places for people. Drawing on aspects of interior, architecture, landscape, urban, performance, exhibition and digital design, spatial design spans a broad and diverse terrain. <br /> <br />
-            
-            You will learn to imagine, form and construct engaging spatial environments in both physical and digital space, from the big picture right down to the detail of construction and materiality.
-        </p>
+<div id="aboutBackground" class="container-fluid">
+    <div class="about , row">
+        <div class="col-lg-4 , col-md-4 , col-sm-12"><h2>SPATIAL</h2></div>
+        <div class="col-lg-4 , col-md-4 , col-sm-12">
+            <p>Spatial designers choreograph experience, inhabitation and environment in the design of places for people. Drawing on aspects of interior, architecture, landscape, urban, performance, exhibition and digital design, spatial design spans a broad and diverse terrain. </p>
+        </div>
+        <div class="col-lg-4 , col-md-4 , col-sm-12">
+        <p>You will learn to imagine, form and construct engaging spatial environments in both physical and digital space, from the big picture right down to the detail of construction and materiality.</p>
+        </div>
     </div>
 </div>
 
@@ -105,12 +106,6 @@
     } else{
         $("nav").removeClass("small").addClass("big");
     }
-    });
-    
-/* Form Submit Alert */ 
-    document.getElementById("button").addEventListener('click', function() {
-        var fname = document.getElementById("fname").value;
-        alert("Thanks for signing up " + fname);
     });
 </script>
 
