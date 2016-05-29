@@ -55,16 +55,17 @@ header.transparent {
     height: 100px;
 }
 
-nav.transparent , nav.navbar {
+nav.transparent , .navbar-default {
     margin: auto;
     max-width: 800px;
     padding:0px 25px 0px 25px;
     font-family: 'Julius Sans One', sans-serif;
     margin-top:40px;
-}
-
-.navbar a:hover {
-    color: inherit;
+    
+    background-color: transparent;
+    border: none;
+    text-align:center;
+    color: #d1dede;
 }
 
 header.solid {
@@ -82,7 +83,7 @@ nav.solid {
     max-width: 800px;
     padding:0px 25px 0px 25px;
     font-family: 'Julius Sans One', sans-serif;
-    margin-top:30px;
+    margin-top:20px;
 }
 
 nav.solid a{
@@ -122,7 +123,7 @@ nav.small {
     max-width: 800px;
     padding:0px 25px 0px 25px;
     font-family: 'Julius Sans One', sans-serif;
-    margin-top:30px;
+    margin-top:20px;
 }
 
 nav.big a, nav.small a{
@@ -136,13 +137,13 @@ header, nav {
   -o-transition: all 0.5s;
 }
 
-.links {
+.links , .navbar-default {
     margin:auto;
     text-align: center;
     color: #d1dede;
 }
 
-.links a {
+.links a , .navbar-default a {
     text-decoration: none;
     color:#d1dede;
     padding-left: 40px;

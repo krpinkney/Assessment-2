@@ -6,8 +6,8 @@
 
     <title>Massey School of Design - Gallery</title>
 
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1" />-->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
     <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
@@ -19,15 +19,15 @@
     
 <!-- HEADER AND NAVIGATION -->    
 <header class= "transparent">
-        <div class="navbar-header">
+    <div class="navbar-header">
         <button class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
         <span class="glyphicon glyphicon-menu-hamburger"></span>
         </button>
     </div>
     
-    <nav class= "navbar , transparent">
+    <nav class= "navbar , navbar-default , transparent">
         <div class="links , collapse navbar-collapse" id="mainNav">
-            <ul class="nav navbar-nav">
+            <ul class="nav , nav-justified">
                 <li><a href="index.html">HOME</a> </li>
                 <li><a href="#majorsBackground">MAJORS</a> </li>
                 <li><a href="http://creative.massey.ac.nz/">MASSEY</a> </li>           
@@ -43,8 +43,8 @@
 <!-- BANNER -->
 <div class="bannerBackground , container-fluid">
     <div class="banner">
-            <h1>MASSEY UNIVERSITY</h1>
-            <h3>SCHOOL OF DESIGN</h3>
+        <h1>MASSEY UNIVERSITY</h1>
+       <h3>SCHOOL OF DESIGN</h3>
     </div>
 </div>
 
@@ -170,6 +170,7 @@
     }
     });
     
+/* FORM ALERT */
     document.getElementById("button").addEventListener('click', function() {
         var fname = document.getElementById("fname").value;
         alert("Thanks for signing up " + fname);
