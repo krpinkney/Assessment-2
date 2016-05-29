@@ -225,14 +225,18 @@ header, nav {
 
 #contactBackground {
     background-color: #9db4bc;
-    height: 400px;
+    height: auto;
 }
 
 .contact {
     margin:auto;
-    padding-top: 25px;
-    color:#2b2b2b;
+    color:#ffffff;
     max-width:800px;
+    padding-bottom:75px;
+}
+
+.details , .form {
+    width: 250px;
 }
 
 .contact h2 {
@@ -241,16 +245,17 @@ header, nav {
     width: 250px;
     height: 45px;
     text-align:center;
-    margin-top: 15px;
     border-bottom: solid #ffffff 2px;
 }
 
 .form {
-    float: right;
+    margin-top:-25px;
+    float: left;
 }
 
 #button {
     background-color:White;
+    color: #2b2b2b;
     width:130px;
     text-align:center;
     cursor:pointer;
