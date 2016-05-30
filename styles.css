@@ -105,7 +105,7 @@ nav.big {
     max-width: 800px;
     padding:0px 25px 0px 25px;
     font-family: 'Julius Sans One', sans-serif;
-    margin-top:40px;
+    margin-top:30px;
 }
 
 header.small {
@@ -124,6 +124,7 @@ nav.small {
     padding:0px 25px 0px 25px;
     font-family: 'Julius Sans One', sans-serif;
     margin-top:20px;
+    font-size:1em;
 }
 
 nav.big a, nav.small a{
@@ -137,13 +138,13 @@ header, nav {
   -o-transition: all 0.5s;
 }
 
-.links , .navbar-default {
+.links {
     margin:auto;
     text-align: center;
     color: #d1dede;
 }
 
-.links a , .navbar-default a {
+.links a {
     text-decoration: none;
     color:#d1dede;
     padding-left: 40px;

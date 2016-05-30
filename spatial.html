@@ -5,7 +5,7 @@
     <title>Spatial Design</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="dist/css/lightbox.css"/>
     <script src="dist/js/lightbox-plus-jquery.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
@@ -19,16 +19,25 @@
     
 <!-- HEADER AND NAVIGATION -->    
 <header class= "big">
-    <nav class= "big">
-        <div class="links">
-            <a href="index.html">HOME</a>
-            <a href="index.html#majorsBackground">MAJORS</a> 
-            <a href="http://creative.massey.ac.nz/">MASSEY</a>            
-            <a href="index.html#aboutBackground">ABOUT</a>       
-            <a href="index.html#contactBackground">CONTACT</a>
+    <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+        <span class="glyphicon glyphicon-menu-hamburger"></span>
+        </button>
+    </div>
+    
+    <nav class= "navbar , navbar-justified , big">
+        <div class="links , collapse navbar-collapse" id="mainNav">
+            <ul class="nav , nav-justified">
+                <li><a href="index.html">HOME</a> </li>
+                <li><a href="index.html#majorsBackground">MAJORS</a> </li>
+                <li><a href="http://creative.massey.ac.nz/">MASSEY</a> </li>           
+                <li><a href="index.html#aboutBackground">ABOUT</a>  </li>     
+                <li><a href="index.html#contactBackground">CONTACT</a> </li>
+            </ul>
         </div>
     </nav>
 </header>
+
 
 <!-- IMAGES -->
 <div class= "images">
