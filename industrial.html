@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Industrial</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="dist/css/lightbox.css"/>
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+  
+</head>
+
+<body>
+    
+<!-- HEADER AND NAVIGATION -->    
+<header class= "big">
+    <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+        <span class="glyphicon glyphicon-menu-hamburger"></span>
+        </button>
+    </div>
+    
+    <nav class= "navbar , navbar-justified , big">
+        <div class="links , collapse navbar-collapse" id="mainNav">
+            <ul class="nav , nav-justified">
+                <li><a href="index.html">HOME</a> </li>
+                <li><a href="index.html#majorsBackground">MAJORS</a> </li>
+                <li><a href="http://creative.massey.ac.nz/">MASSEY</a> </li>           
+                <li><a href="index.html#aboutBackground">ABOUT</a>  </li>     
+                <li><a href="index.html#contactBackground">CONTACT</a> </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- IMAGES -->
+<div class= "images">
+    <h2>INDUSTRIAL</h2>
+    <div class="image1">
+        <a href="images/industrial/industrial1-lg.jpg" data-lightbox="industrial">
+        <img src="images/industrial/industrial1.jpg" data-lightbox ="industrial"/>
+        </a>
+    </div>
+    
+    <div class="image2">
+          <a href="images/industrial/industrial2-lg.jpg" data-lightbox="industrial">
+        <img src="images/industrial/industrial2.jpg" data-lightbox ="industrial"/>
+        </a>
+    </div>
+    
+    <div class="image3">
+        <iframe width="630" height="360" src="https://www.youtube.com/embed/OYZUOlZ87aI" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
+    <div class="image4">
+         <a href="images/industrial/industrial4.jpg" data-lightbox="industrial">
+        <img src="images/industrial/industrial4.jpg" data-lightbox ="industrial"/>
+        </a>
+    </div>
+    
+    <div class="image5">
+        <a href="images/industrial/industrial5.jpg" data-lightbox="industrial">
+        <img src="images/industrial/industrial5.jpg" data-lightbox ="industrial"/>
+        </a>
+    </div>
+    
+    <div class="image6">
+         <a href="images/industrial/industrial6.jpg" data-lightbox="industrial">
+        <img src="images/industrial/industrial6.jpg" data-lightbox ="industrial"/>
+        </a>
+    </div>
+</div>
+
+<!-- ABOUT MAJOR -->
+<div id="aboutBackground" class="container-fluid">
+    <div class="about , row">
+        <div class="col-lg-4 , col-md-4 , col-sm-12"><h2>INDUSTRIAL</h2></div>
+        <div class="col-lg-4 , col-md-4 , col-sm-12">
+            <p>As an industrial designer you&#39;ll develop inspirational and elegant products, objects and systems such as smart phones, multi-sport hydration packs, bike pumps, perfume bottles or even a life support system for Mars!</p>
+        </div>
+        <div class="col-lg-4 , col-md-4 , col-sm-12">
+        <p>You will research and design using both traditional and digital processes to explore, communicate and make. </p>
+        </div>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <p>Made by Jessie Hamilton & Kristina Pinkney 2016</p>
+</div>
+
+<script src="dist/js/lightbox-plus-jquery.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+    
+/* Resizing Header */    
+    $(document).on("scroll",function(){
+    if($(document).scrollTop()>100){
+        $("header").removeClass("big").addClass("small");
+    } else{
+        $("header").removeClass("small").addClass("big");
+    }
+    });
+
+    $(document).on("scroll",function(){
+    if($(document).scrollTop()>100){
+        $("nav").removeClass("big").addClass("small");
+    } else{
+        $("nav").removeClass("small").addClass("big");
+    }
+    });
+    
+/* Form Submit Alert */ 
+    document.getElementById("button").addEventListener('click', function() {
+        var fname = document.getElementById("fname").value;
+        alert("Thanks for signing up " + fname);
+    });
+</script>
+
+</body>
+</html>
