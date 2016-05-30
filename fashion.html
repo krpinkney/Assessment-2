@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Fashion</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="dist/css/lightbox.css"/>
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+  
+</head>
+
+<body>
+    
+<!-- HEADER AND NAVIGATION -->    
+<header class= "big">
+    <nav class= "big">
+        <div class="links">
+            <a href="index.html">HOME</a>
+            <a href="index.html#majorsBackground">MAJORS</a> 
+            <a href="http://creative.massey.ac.nz/">MASSEY</a>            
+            <a href="index.html#aboutBackground">ABOUT</a>       
+            <a href="index.html#contactBackground">CONTACT</a>
+        </div>
+    </nav>
+</header>
+
+<!-- IMAGES -->
+<div class= "images">
+    <h2>FASHION</h2>
+    <div class="image1">
+        <a href="images/fashion/fashion1-lg.jpg" data-lightbox="fashion">
+        <img src="images/fashion/fashion1.jpg" data-lightbox ="fashion"/>
+        </a>
+    </div>
+    
+    <div class="image2">
+        <a href="images/fashion/fashion2-lg.jpg" data-lightbox="fashion">
+        <img src="images/fashion/fashion2.jpg" data-lightbox ="fashion"/>
+        </a>
+    </div>
+    
+    <div class="image3">
+        <iframe width="630" height="360" src="https://www.youtube.com/embed/jqo7MVDQ7fI" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
+    <div class="image4">
+         <a href="images/fashion/fashion4-lg.jpg" data-lightbox="fashion">
+        <img src="images/fashion/fashion4.jpg" data-lightbox ="fashion"/>
+        </a>
+    </div>
+    
+    <div class="image5">
+       <a href="images/fashion/fashion5-lg.jpg" data-lightbox="fashion">
+        <img src="images/fashion/fashion5.jpg" data-lightbox ="fashion"/>
+        </a>
+    </div>
+    
+    <div class="image6">
+        <a href="images/fashion/fashion6-lg.jpg" data-lightbox="fashion">
+        <img src="images/fashion/fashion6.jpg" data-lightbox ="fashion"/>
+        </a>
+    </div>
+</div>
+
+<!-- ABOUT MAJOR -->
+<div id="aboutBackground">
+    <div class="about">
+        <h2>FASHION</h2>
+        <p>
+           Fashion is everywhere, constantly shaping us, and being shaped by us. The changing global environment, from politics and economics to communications and technology, means that future fashion thinkers, makers and designers need to be flexible and innovative.
+        </p>
+       
+    </div>
+</div>
+
+
+<!-- FOOTER -->
+<div class="footer">
+    <p>Made by Jessie Hamilton & Kristina Pinkney 2016</p>
+</div>
+
+<script src="dist/js/lightbox-plus-jquery.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+    
+/* Resizing Header */    
+    $(document).on("scroll",function(){
+    if($(document).scrollTop()>100){
+        $("header").removeClass("big").addClass("small");
+    } else{
+        $("header").removeClass("small").addClass("big");
+    }
+    });
+
+    $(document).on("scroll",function(){
+    if($(document).scrollTop()>100){
+        $("nav").removeClass("big").addClass("small");
+    } else{
+        $("nav").removeClass("small").addClass("big");
+    }
+    });
+    
+/* Form Submit Alert */ 
+    document.getElementById("button").addEventListener('click', function() {
+        var fname = document.getElementById("fname").value;
+        alert("Thanks for signing up " + fname);
+    });
+</script>
+
+</body>
+</html>
