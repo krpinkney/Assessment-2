@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Visual Communication</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="dist/css/lightbox.css"/>
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+  
+</head>
+
+<body>
+    
+<!-- HEADER AND NAVIGATION -->    
+<header class= "big">
+    <nav class= "big">
+        <div class="links">
+            <a href="index.html">HOME</a>
+            <a href="index.html#majorsBackground">MAJORS</a> 
+            <a href="http://creative.massey.ac.nz/">MASSEY</a>            
+            <a href="index.html#aboutBackground">ABOUT</a>       
+            <a href="index.html#contactBackground">CONTACT</a>
+        </div>
+    </nav>
+</header>
+
+<!-- IMAGES -->
+<div class= "images">
+    <h2>VISUAL COMMUNICATION</h2>
+    <div class="image1">
+        <a href="images/vcd/vcd1.jpg" data-lightbox="vcd">
+        <img src="images/vcd/vcd1.jpg" data-lightbox ="vcd"/>
+        </a>
+    </div>
+    
+    <div class="image2">
+          <a href="images/vcd/vcd2.jpg" data-lightbox="vcd">
+        <img src="images/vcd/vcd2.jpg" data-lightbox ="vcd"/>
+        </a>
+    </div>
+    
+    <div class="image3">
+        <iframe width="630" height="360" src="https://www.youtube.com/embed/OYZUOlZ87aI" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
+    <div class="image4">
+         <a href="images/vcd/vcd4.jpg" data-lightbox="vcd">
+        <img src="images/vcd/vcd4.jpg" data-lightbox ="vcd"/>
+        </a>
+    </div>
+    
+    <div class="image5">
+        <a href="images/vcd/vcd26.jpg" data-lightbox="vcd">
+        <img src="images/vcd/vcd26.jpg" data-lightbox ="vcd"/>
+        </a>
+    </div>
+    
+    <div class="image6">
+         <a href="images/vcd/vcd8.jpg" data-lightbox="vcd">
+        <img src="images/vcd/vcd8.jpg" data-lightbox ="vcd"/>
+        </a>
+    </div>
+</div>
+
+<!-- ABOUT MAJOR -->
+<div id="aboutBackground">
+    <div class="about">
+        <h2>SPATIAL</h2>
+        <p>
+            Spatial designers choreograph experience, inhabitation and environment in the design of places for people. Drawing on aspects of interior, architecture, landscape, urban, performance, exhibition and digital design, spatial design spans a broad and diverse terrain. <br /> <br />
+            
+            You will learn to imagine, form and construct engaging spatial environments in both physical and digital space, from the big picture right down to the detail of construction and materiality.
+        </p>
+    </div>
+</div>
+
+
+<!-- FOOTER -->
+<div class="footer">
+    <p>Made by Jessie Hamilton & Kristina Pinkney 2016</p>
+</div>
+
+<script src="dist/js/lightbox-plus-jquery.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+    
+/* Resizing Header */    
+    $(document).on("scroll",function(){
+    if($(document).scrollTop()>100){
+        $("header").removeClass("big").addClass("small");
+    } else{
+        $("header").removeClass("small").addClass("big");
+    }
+    });
+
+    $(document).on("scroll",function(){
+    if($(document).scrollTop()>100){
+        $("nav").removeClass("big").addClass("small");
+    } else{
+        $("nav").removeClass("small").addClass("big");
+    }
+    });
+    
+/* Form Submit Alert */ 
+    document.getElementById("button").addEventListener('click', function() {
+        var fname = document.getElementById("fname").value;
+        alert("Thanks for signing up " + fname);
+    });
+</script>
+
+</body>
+</html>
