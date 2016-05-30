@@ -304,6 +304,10 @@ header, nav {
     cursor:pointer;
 }
 
+#fname {
+    color: #2b2b2b;
+}
+
 .footer {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 0.75em;
